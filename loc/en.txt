@@ -1,0 +1,14 @@
+{
+	"igwsc_menu_title": "InGame Waiting Status Color",
+	"igwsc_menu_desc": "Customize the status text's colors (ready/not ready) in the loadout screen",
+	"igwsc_options_reset_title": "Reset",
+	"igwsc_options_reset_desc": "Reset to default colors",
+	"ready_text_title": "Ready Label",
+	"ready_text_desc": "Set text for the READY status",
+	"ready_color_title": "Ready Color",
+	"ready_color_desc": "Set color for the READY status",
+	"unready_color_title": "Not Ready Color",
+	"unready_color_desc": "Set color for the NOT READY status",
+	"unready_text_title": "Not Ready Label",
+	"unready_text_desc": "Set text for the NOT READY status"
+}
