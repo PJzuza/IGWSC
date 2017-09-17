@@ -5,6 +5,28 @@
 	"description": "igwsc_menu_desc",
 	"items": [{
 			"type": "input",
+			"id": "dropin_text_input",
+			"title": "dropin_text_title",
+			"description": "dropin_text_desc",
+			"callback": "callback_dropin_text_input",
+			"value": "dropin_text_value",
+			"default_value": false
+		},
+		{
+			"type": "input",
+			"id": "dropin_color_input",
+			"title": "dropin_color_title",
+			"description": "dropin_color_desc",
+			"callback": "callback_dropin_color_input",
+			"value": "dropin_color_value",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 32
+		},
+		{
+			"type": "input",
 			"id": "join_text_input",
 			"title": "join_text_title",
 			"description": "join_text_desc",

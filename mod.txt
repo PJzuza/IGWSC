@@ -1,6 +1,6 @@
 {
 	"name": "InGameWaitingStatusColor",
-	"description": "Customize the status text's colors (ready/not ready) in the loadout screen",
+	"description": "Customize the loadout screen's status texts",
 	"author": "NewPJzuza",
 	"contact": "http://steamcommunity.com/id/NewPJzuza/",
 	"version": "2.0",
@@ -10,6 +10,7 @@
 	"updates": [{
 		"identifier": "IGWSC"
 	}],
+	"dependencies" : [ "unofficialbltbeta" ]
 	"hooks": [{
 			"hook_id": "lib/managers/menumanager",
 			"script_path": "lua/menumanager.lua"
