@@ -11,7 +11,12 @@
 		"identifier": "IGWSC"
 	}],
 	"hooks": [{
-		"hook_id": "lib/managers/hud/hudmissionbriefing",
-		"script_path": "hudmissionbriefing.lua"
-	}]
+			"hook_id": "lib/managers/menumanager",
+			"script_path": "lua/menumanager.lua"
+		},
+		{
+			"hook_id": "lib/managers/hud/hudmissionbriefing",
+			"script_path": "lua/hudmissionbriefing.lua"
+		}
+	]
 }
