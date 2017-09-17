@@ -1,23 +1,17 @@
 {
-	    "name" : "InGameWaitingStatusColor",
-		"description" : "Change the status colors when a player is ready/not ready from the white color to the green color and the red color",
-	    "author" : "NewPJzuza",
-	    "contact" : "Steam name : NewPJzuza, Email : PJzuza@gmail.com",
-	    "version" : "1.1",
-		"blt_version" : 2,
-		"image" : "IGWSC.png",
-		"color" : "239 170 66",
-		"updates" : 
-		[
-			{
-				"revision" : 2,
-				"identifier" : "IGWSC"
-			}
-		],
-	    "hooks" : [
-						
-						{ 	"hook_id" : "lib/managers/hud/hudmissionbriefing", 
-							"script_path" : "hudmissionbriefing.lua" 
-						}
-	              ]
+	"name": "InGameWaitingStatusColor",
+	"description": "Customize the status text's colors (ready/not ready) in the loadout screen",
+	"author": "NewPJzuza",
+	"contact": "http://steamcommunity.com/id/NewPJzuza/",
+	"version": "1.1",
+	"blt_version": 2,
+	"image": "IGWSC.png",
+	"color": "239 170 66",
+	"updates": [{
+		"identifier": "IGWSC"
+	}],
+	"hooks": [{
+		"hook_id": "lib/managers/hud/hudmissionbriefing",
+		"script_path": "hudmissionbriefing.lua"
+	}]
 }
