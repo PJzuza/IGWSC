@@ -75,8 +75,8 @@ Hooks:Add( "MenuManagerInitialize", "MenuManagerInitialize_IGWSC", function( men
 
 	MenuCallbackHandler.callback_igwsc_reset = function(self, item)
 		IGWSC:Reset()
-		MenuHelper:ResetItemsToDefaultValue(item, {["dropin_text_input"] = true}, IGWSC.settings.join_text_value)
-		MenuHelper:ResetItemsToDefaultValue(item, {["dropin_color_input"] = true}, IGWSC.settings.join_color_value)
+		MenuHelper:ResetItemsToDefaultValue(item, {["dropin_text_input"] = true}, IGWSC.settings.dropin_text_value)
+		MenuHelper:ResetItemsToDefaultValue(item, {["dropin_color_input"] = true}, IGWSC.settings.dropin_color_value)
 		MenuHelper:ResetItemsToDefaultValue(item, {["join_text_input"] = true}, IGWSC.settings.join_text_value)
 		MenuHelper:ResetItemsToDefaultValue(item, {["join_color_input"] = true}, IGWSC.settings.join_color_value)
 		MenuHelper:ResetItemsToDefaultValue(item, {["ready_text_input"] = true}, IGWSC.settings.ready_text_value)
