@@ -1,8 +1,8 @@
 {
 	"name": "InGameWaitingStatusColor",
 	"description": "Customize the loadout screen's status texts",
-	"author": "NewPJzuza",
-	"contact": "http://steamcommunity.com/id/NewPJzuza/",
+	"author": "NewPJzuza & Takku",
+	"contact": "http://steamcommunity.com/id/NewPJzuza/ & http://steamcommunity.com/profiles/76561197960497623/",
 	"version": "2.0",
 	"blt_version": 2,
 	"image": "IGWSC.png",
