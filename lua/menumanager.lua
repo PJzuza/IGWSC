@@ -34,11 +34,27 @@ function IGWSC:Load()
 	end
 end
 
+function IGWSC:DialogHelp()
+	local title = managers.localization:text('igwsc_menu_title')
+	local message = managers.localization:text('igwsc_options_info_popup_message_help')
+	local menu_options = {}
+	menu_options[1] = 
+	{
+		text = managers.localization:text('igwsc_options_info_popup_close'),
+		is_cancel_button = true
+	}
+	local help_menu = QuickMenu:new(title, message, menu_options, true)
+end
+
 Hooks:Add("LocalizationManagerPostInit", "LocalizationManagerPostInit_IGWSC", function( loc )
 	loc:load_localization_file( IGWSC._path .. "loc/en.txt")
 end)
 
 Hooks:Add( "MenuManagerInitialize", "MenuManagerInitialize_IGWSC", function( menu_manager )
+
+	MenuCallbackHandler.IGWSCHelp = function(self, item)
+		IGWSC:DialogHelp()
+	end
 
 	MenuCallbackHandler.callback_dropin_text_input = function(self, item)
 		IGWSC.settings.dropin_text_value = item:value()

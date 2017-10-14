@@ -3,7 +3,15 @@
 	"parent_menu_id": "blt_options",
 	"title": "igwsc_menu_title",
 	"description": "igwsc_menu_desc",
-	"items": [{
+	"items": [
+		{
+			"type" : "button",
+			"id" : "igwsc_button_help",
+			"title" : "igwsc_options_help_title",
+			"description" : "igwsc_option_help_desc",
+			"callback" : "IGWSCHelp"
+		},
+		{
 			"type": "input",
 			"id": "dropin_text_input",
 			"title": "dropin_text_title",
