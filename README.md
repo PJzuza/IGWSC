@@ -1,5 +1,7 @@
 # In-Game Waiting Status Color (IGWSC)
-In-Game Waiting Status Color for PayDay 2 game :)
+In-Game Waiting Status Color for PayDay 2 game :)  
+
+![In-Game Waiting Status Color](https://i.imgur.com/aF5EK6b.png)  
 
 ## What is the In-Game Waiting Status Color?  
 This mod is simply changing the status color when a player that's in the Preplanning phase/Loading. For example, you can change READY status, NOT READY status, Joining status and Loading status from the white color to ANY COLOR you wanted.  
