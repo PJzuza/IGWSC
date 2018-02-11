@@ -47,7 +47,14 @@ function IGWSC:DialogHelp()
 end
 
 Hooks:Add("LocalizationManagerPostInit", "LocalizationManagerPostInit_IGWSC", function( loc )
-	loc:load_localization_file( IGWSC._path .. "loc/en.txt")
+	for __, filename in pairs(file.GetFiles(IGWSC._path .. "loc/")) do
+		local str = filename:match('^(.*).txt$')
+		if str and Idstring(str) and Idstring(str):key() == SystemInfo:language():key() then
+			loc:load_localization_file(IGWSC._path .. "loc/" .. filename)
+			break
+		end
+	end
+	loc:load_localization_file(IGWSC._path .. "loc/english.txt", false)
 end)
 
 Hooks:Add( "MenuManagerInitialize", "MenuManagerInitialize_IGWSC", function( menu_manager )
