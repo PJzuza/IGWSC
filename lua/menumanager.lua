@@ -4,7 +4,7 @@ IGWSC.settings_path = SavePath .. "IGWSC.txt"
 
 function IGWSC:Reset()
 	self.settings = {
-		dropin_text_value = managers.localization:text("debug_loading_level"),
+		dropin_text_value = string.upper(managers.localization:text("debug_loading_level")),
 		dropin_color_value = "FFFF99",
 		join_text_value = managers.localization:text("menu_waiting_is_joining"),
 		join_color_value = "99FFFF",
