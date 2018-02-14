@@ -4,13 +4,13 @@ IGWSC.settings_path = SavePath .. "IGWSC.txt"
 
 function IGWSC:Reset()
 	self.settings = {
-		dropin_text_value = "LOADING",
+		dropin_text_value = managers.localization:text("debug_loading_level"),
 		dropin_color_value = "FFFF99",
-		join_text_value = "JOINING",
+		join_text_value = managers.localization:text("menu_waiting_is_joining"),
 		join_color_value = "99FFFF",
-		ready_text_value = "READY",
+		ready_text_value = managers.localization:text("menu_waiting_is_ready"),
 		ready_color_value = "66FF66",
-		unready_text_value = "NOT READY",
+		unready_text_value = managers.localization:text("menu_waiting_is_not_ready"),
 		unready_color_value = "FF3333"
 	}
 end
@@ -47,11 +47,25 @@ function IGWSC:DialogHelp()
 end
 
 Hooks:Add("LocalizationManagerPostInit", "LocalizationManagerPostInit_IGWSC", function( loc )
-	for __, filename in pairs(file.GetFiles(IGWSC._path .. "loc/")) do
-		local str = filename:match('^(.*).txt$')
-		if str and Idstring(str) and Idstring(str):key() == SystemInfo:language():key() then
-			loc:load_localization_file(IGWSC._path .. "loc/" .. filename)
-			break
+	-- Thanks to Lobby Player Info mod and WolfHUD mod for checking the language and load the language
+	if file.DirectoryExists(IGWSC._path .. "loc/") then
+		local custom_language
+		for _, mod in pairs(BLT and BLT.Mods:Mods() or {}) do
+			if mod:GetName() == "ChnMod" and mod:IsEnabled() then
+				custom_language = "chinese"
+				break
+			end
+		end
+		if custom_language then
+			loc:load_localization_file(IGWSC._path .. "loc/chinese.txt")
+		else
+			for __, filename in pairs(file.GetFiles(IGWSC._path .. "loc/")) do
+				local str = filename:match('^(.*).txt$')
+				if str and Idstring(str) and Idstring(str):key() == SystemInfo:language():key() then
+					loc:load_localization_file(IGWSC._path .. "loc/" .. filename)
+					break
+				end
+			end
 		end
 	end
 	loc:load_localization_file(IGWSC._path .. "loc/english.txt", false)
