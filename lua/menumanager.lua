@@ -51,7 +51,7 @@ Hooks:Add("LocalizationManagerPostInit", "LocalizationManagerPostInit_IGWSC", fu
 	if file.DirectoryExists(IGWSC._path .. "loc/") then
 		local custom_language
 		for _, mod in pairs(BLT and BLT.Mods:Mods() or {}) do
-			if mod:GetName() == "ChnMod" and mod:IsEnabled() then
+			if mod:GetName() == "ChnMod (Patch)" and mod:IsEnabled() then
 				custom_language = "chinese"
 				break
 			end
