@@ -13,13 +13,13 @@
 	"dropin_text_title": "Set Loading text",
 	"dropin_text_desc": "Type any texts to set text for the LOADING status",
 	
-	"dropin_color_title": "Set Loading Color",
+	"dropin_color_title": "Set Set Loading Color",
 	"dropin_color_desc": "Type the Hex Color code to set color for the LOADING status",
 	
 	"join_text_title": "Set Joining text",
 	"join_text_desc": "Type any texts to set text for the JOINING status",
 	
-	"join_color_title": "Joining Color",
+	"join_color_title": "Set Joining Color",
 	"join_color_desc": "Type the Hex Color code to set color for the JOINING status",
 	
 	"ready_text_title": "Set Ready text",
