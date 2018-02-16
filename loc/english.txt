@@ -13,23 +13,23 @@
 	"dropin_text_title": "Set Loading text",
 	"dropin_text_desc": "Type any texts to set text for the LOADING status",
 	
-	"dropin_color_title": "Loading Color",
-	"dropin_color_desc": "Set color for the LOADING status",
+	"dropin_color_title": "Set Loading Color",
+	"dropin_color_desc": "Type the Hex Color code to set color for the LOADING status",
 	
 	"join_text_title": "Set Joining text",
 	"join_text_desc": "Type any texts to set text for the JOINING status",
 	
 	"join_color_title": "Joining Color",
-	"join_color_desc": "Set color for the JOINING status",
+	"join_color_desc": "Type the Hex Color code to set color for the JOINING status",
 	
 	"ready_text_title": "Set Ready text",
 	"ready_text_desc": "Type any texts to set text for the READY status",
 	
-	"ready_color_title": "Ready Color",
-	"ready_color_desc": "Set color for the READY status",
+	"ready_color_title": "Set Ready Color",
+	"ready_color_desc": "Type the Hex Color code to set color for the READY status",
 	
-	"unready_color_title": "Not Ready Color",
-	"unready_color_desc": "Set color for the NOT READY status",
+	"unready_color_title": "Set Not Ready Color",
+	"unready_color_desc": "Type the Hex Color code to set color for the NOT READY status",
 	
 	"unready_text_title": "Set Not Ready text",
 	"unready_text_desc": "Type any texts to set text for the NOT READY status"
