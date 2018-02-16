@@ -54,10 +54,13 @@ Hooks:Add("LocalizationManagerPostInit", "LocalizationManagerPostInit_IGWSC", fu
 			if mod:GetName() == "ChnMod (Patch)" and mod:IsEnabled() then
 				custom_language = "chinese"
 				break
-			end
+			elseif mod:GetName() == "PAYDAY 2 THAI LANGUAGE Mod" and mod:IsEnabled() then
+				custom_language = "thai"
+				break
+			end			
 		end
 		if custom_language then
-			loc:load_localization_file(IGWSC._path .. "loc/chinese.txt")
+			loc:load_localization_file(IGWSC._path .. "loc/" .. custom_language ..".txt")
 		else
 			for __, filename in pairs(file.GetFiles(IGWSC._path .. "loc/")) do
 				local str = filename:match('^(.*).txt$')
