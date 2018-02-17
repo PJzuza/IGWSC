@@ -20,7 +20,8 @@ A. You can change the color yourself using a menu in-game option. By going to OP
 
 ![In-Game Waiting Status Color - Plan A Choice 1](https://thumbs.gfycat.com/JealousFearfulDowitcher-size_restricted.gif)  
 
-2. Type any texts and any Hex Color to satisfy yourself xD
+2. Type any texts and any Hex Color to satisfy yourself xD  
+
 ![In-Game Waiting Status Color - Plan A Choice 2](https://thumbs.gfycat.com/SnappyHeartfeltBluegill-size_restricted.gif)  
 
 B. Or you can change it directly by going to PAYDAY 2\mods\saves click IGWSC.txt and you can change the color manually.  
