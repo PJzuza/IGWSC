@@ -15,13 +15,17 @@ This mod is simply changing the status color when a player that's in the Preplan
 4. Enjoy :)
 
 ## How to change the color?  
-A. You can change the color yourself using a menu in-game option.  
+A. You can change the color yourself using a menu in-game option. By going to OPTIONS > MOD OPTIONS > INGAME WAITING STATUS COLOR After that. You have 2 choices  
+1. If you are lazy. You can use "RESET" button to use default colors and default texts  
 
-![In-Game Waiting Status Color - Plan A](https://thumbs.gfycat.com/PassionateRepulsiveBlackfly-size_restricted.gif) 
+![In-Game Waiting Status Color - Plan A Choice 1](https://thumbs.gfycat.com/JealousFearfulDowitcher-size_restricted.gif)  
+
+2. Type any texts and any Hex Color to satisfy yourself xD
+![In-Game Waiting Status Color - Plan A Choice 2](https://thumbs.gfycat.com/SnappyHeartfeltBluegill-size_restricted.gif)  
 
 B. Or you can change it directly by going to PAYDAY 2\mods\saves click IGWSC.txt and you can change the color manually.  
 
-![In-Game Waiting Status Color - Plan B](https://i.imgur.com/3AAALit.png)
+![In-Game Waiting Status Color - Plan B](https://i.imgur.com/3AAALit.png)  
 
 ## Special thank you
 1. [Takku](http://steamcommunity.com/profiles/76561197960497623/) my friend who helped me developed this mod to be in the better state.
