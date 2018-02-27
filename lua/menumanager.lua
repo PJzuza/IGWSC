@@ -60,10 +60,10 @@ Hooks:Add("LocalizationManagerPostInit", "LocalizationManagerPostInit_IGWSC", fu
 			end			
 		end
 		if custom_language then
-			loc:load_localization_file(IGWSC._path .. "loc/" .. custom_language ..".txt")
+			loc:load_localization_file(IGWSC._path .. "loc/" .. custom_language ..".json")
 		else
-			for __, filename in pairs(file.GetFiles(IGWSC._path .. "loc/")) do
-				local str = filename:match('^(.*).txt$')
+			for _, filename in pairs(file.GetFiles(IGWSC._path .. "loc/")) do
+				local str = filename:match('^(.*).json$')
 				if str and Idstring(str) and Idstring(str):key() == SystemInfo:language():key() then
 					loc:load_localization_file(IGWSC._path .. "loc/" .. filename)
 					break
@@ -71,7 +71,7 @@ Hooks:Add("LocalizationManagerPostInit", "LocalizationManagerPostInit_IGWSC", fu
 			end
 		end
 	end
-	loc:load_localization_file(IGWSC._path .. "loc/english.txt", false)
+	loc:load_localization_file(IGWSC._path .. "loc/english.json", false)
 end)
 
 Hooks:Add( "MenuManagerInitialize", "MenuManagerInitialize_IGWSC", function( menu_manager )
