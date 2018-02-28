@@ -14,23 +14,23 @@
 	"dropin_text_desc": "Escribe cualquier texto que reemplace al estado de CARGANDO.",
 	
 	"dropin_color_title": "Cambiar el color de Carga",
-	"dropin_color_desc": "Escribe el código de color para el estado de "CARGANDO"",
+	"dropin_color_desc": "Escribe el código de color para el estado de 'CARGANDO'",
 	
 	"join_text_title": "Cambiar el texto de Conectando",
 	"join_text_desc": "Escribe cualquier texto que reemplace al estado de CONECTANDO",
 	
 	"join_color_title": "Cambiar el color de Conectando",
-	"join_color_desc": "Escribe el código de color para el estado de "CONECTANDO"",
+	"join_color_desc": "Escribe el código de color para el estado de 'CONECTANDO'",
 	
 	"ready_text_title": "Cambiar el texto de Preparado",
-	"ready_text_desc": "Escribe cualquier texto que reemplace a "PREPARADO"",
+	"ready_text_desc": "Escribe cualquier texto que reemplace a 'PREPARADO'",
 	
 	"ready_color_title": "Cambiar el color de Preparado",
-	"ready_color_desc": "Escribe el código de color para el estado de "PREPARADO"",
+	"ready_color_desc": "Escribe el código de color para el estado de 'PREPARADO'",
 	
 	"unready_color_title": "Cambiar el color No Preparado",
-	"unready_color_desc": "Escribe el código de color para el estado de "NO PREPARADO"",
+	"unready_color_desc": "Escribe el código de color para el estado de 'NO PREPARADO'",
 	
 	"unready_text_title": "Cambiar el texto No Preparado",
-	"unready_text_desc": "Escribe cualquier texto que reemplace a "NO PREPARADO""
+	"unready_text_desc": "Escribe cualquier texto que reemplace a 'NO PREPARADO'"
 }
