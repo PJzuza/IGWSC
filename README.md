@@ -33,6 +33,8 @@ B. Or you can change it directly by going to PAYDAY 2\mods\saves click IGWSC.txt
 2. [Dribbleondo](http://steamcommunity.com/profiles/76561198093336706) who helped us by fixing some typo and suggesting great ideas to improve this mod.
 3. [FR0Z3](http://steamcommunity.com/profiles/76561198058215284/) for Chinese translation. 
 4. [zadirak'a zeis?](http://steamcommunity.com/profiles/76561198260704808/) for Russian translation.
+5. [JerryTheHedgehog](http://steamcommunity.com/profiles/76561198277139668/) for Spanish translation.
+6. [Butterbrezel](http://steamcommunity.com/profiles/76561198067196256/) for German translation.
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=isAUQXQCeFY
 " target="_blank"><img src="http://img.youtube.com/vi/isAUQXQCeFY/0.jpg" 
