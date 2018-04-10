@@ -30,11 +30,12 @@ B. Or you can change it directly by going to PAYDAY 2\mods\saves click IGWSC.txt
 
 ## Special thank you
 1. [Takku](http://steamcommunity.com/profiles/76561197960497623/) my friend who helped me developed this mod to be in the better state.
-2. [Dribbleondo](http://steamcommunity.com/profiles/76561198093336706) who helped us by fixing some typo and suggesting great ideas to improve this mod.
-3. [FR0Z3](http://steamcommunity.com/profiles/76561198058215284/) for Chinese translation. 
-4. [zadirak'a zeis?](http://steamcommunity.com/profiles/76561198260704808/) for Russian translation.
-5. [JerryTheHedgehog](http://steamcommunity.com/profiles/76561198277139668/) for Spanish translation.
-6. One of my German friend for German translation.
+2. [Shockwave](http://steamcommunity.com/profiles/76561198078556212/) my friend who keep improving this mod to be in the better state and be more PC's friendly.
+3. [Dribbleondo](http://steamcommunity.com/profiles/76561198093336706) who helped us by fixing some typo and suggesting great ideas to improve this mod.
+4. [FR0Z3](http://steamcommunity.com/profiles/76561198058215284/) for Chinese translation. 
+5. [zadirak'a zeis?](http://steamcommunity.com/profiles/76561198260704808/) for Russian translation.
+6. [JerryTheHedgehog](http://steamcommunity.com/profiles/76561198277139668/) for Spanish translation.
+7. One of my German friend for German translation.
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=isAUQXQCeFY
 " target="_blank"><img src="http://img.youtube.com/vi/isAUQXQCeFY/0.jpg" 
