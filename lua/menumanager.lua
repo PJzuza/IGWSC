@@ -1,6 +1,8 @@
-_G.IGWSC = _G.IGWSC or {}
-IGWSC._path = ModPath
-IGWSC.settings_path = SavePath .. "IGWSC.txt"
+if not _G.IGWSC then
+	_G.IGWSC = _G.IGWSC or {}
+	IGWSC._path = ModPath
+	IGWSC.settings_path = SavePath .. "IGWSC.txt"
+end
 
 function IGWSC:Reset()
 	self.settings = {
@@ -16,21 +18,21 @@ function IGWSC:Reset()
 end
 
 function IGWSC:Save()
-	local file = io.open( self.settings_path, "w+" )
+	local file = io.open(self.settings_path, "w+")
 	if file then
-		file:write( json.encode( self.settings ) )
+		file:write(json.encode(self.settings))
 		file:close()
 	end
 end
 
 function IGWSC:Load()
-	local file = io.open( self.settings_path, "r" )
+	IGWSC:Reset()
+	local file = io.open(self.settings_path, "r")
 	if file then
-		self.settings = json.decode( file:read("*all") )
+		for k, v in pairs(json.decode(file:read('*all')) or {}) do
+			self.settings[k] = v
+		end
 		file:close()
-	else
-		IGWSC:Reset()
-		IGWSC:Save()
 	end
 end
 
@@ -75,60 +77,57 @@ Hooks:Add("LocalizationManagerPostInit", "LocalizationManagerPostInit_IGWSC", fu
 end)
 
 Hooks:Add( "MenuManagerInitialize", "MenuManagerInitialize_IGWSC", function( menu_manager )
-
 	MenuCallbackHandler.IGWSCHelp = function(self, item)
 		IGWSC:DialogHelp()
 	end
 
 	MenuCallbackHandler.callback_dropin_text_input = function(self, item)
 		IGWSC.settings.dropin_text_value = item:value()
-		IGWSC:Save()
 	end
+
 	MenuCallbackHandler.callback_dropin_color_input = function(self, item)
 		IGWSC.settings.dropin_color_value = item:value()
-		IGWSC:Save()
 	end
+
 	MenuCallbackHandler.callback_join_text_input = function(self, item)
 		IGWSC.settings.join_text_value = item:value()
-		IGWSC:Save()
 	end
+
 	MenuCallbackHandler.callback_join_color_input = function(self, item)
 		IGWSC.settings.join_color_value = item:value()
-		IGWSC:Save()
 	end
+
 	MenuCallbackHandler.callback_ready_text_input = function(self, item)
 		IGWSC.settings.ready_text_value = item:value()
-		IGWSC:Save()
 	end
+
 	MenuCallbackHandler.callback_ready_color_input = function(self, item)
 		IGWSC.settings.ready_color_value = item:value()
-		IGWSC:Save()
 	end
+
 	MenuCallbackHandler.callback_unready_text_input = function(self, item)
 		IGWSC.settings.unready_text_value = item:value()
-		IGWSC:Save()
 	end
+
 	MenuCallbackHandler.callback_unready_color_input = function(self, item)
 		IGWSC.settings.unready_color_value = item:value()
+	end
+
+	MenuCallbackHandler.igwsc_save = function(this, item)
 		IGWSC:Save()
 	end
 
 	MenuCallbackHandler.callback_igwsc_reset = function(self, item)
-		IGWSC:Reset()
-		MenuHelper:ResetItemsToDefaultValue(item, {["dropin_text_input"] = true}, IGWSC.settings.dropin_text_value)
-		MenuHelper:ResetItemsToDefaultValue(item, {["dropin_color_input"] = true}, IGWSC.settings.dropin_color_value)
-		MenuHelper:ResetItemsToDefaultValue(item, {["join_text_input"] = true}, IGWSC.settings.join_text_value)
-		MenuHelper:ResetItemsToDefaultValue(item, {["join_color_input"] = true}, IGWSC.settings.join_color_value)
-		MenuHelper:ResetItemsToDefaultValue(item, {["ready_text_input"] = true}, IGWSC.settings.ready_text_value)
-		MenuHelper:ResetItemsToDefaultValue(item, {["ready_color_input"] = true}, IGWSC.settings.ready_color_value)
-		MenuHelper:ResetItemsToDefaultValue(item, {["unready_text_input"] = true}, IGWSC.settings.unready_text_value)
-		MenuHelper:ResetItemsToDefaultValue(item, {["unready_color_input"] = true}, IGWSC.settings.unready_color_value)
-		IGWSC:Save()
+		MenuHelper:ResetItemsToDefaultValue(item, {["dropin_text_input"] = true}, string.upper(managers.localization:text("debug_loading_level")))
+		MenuHelper:ResetItemsToDefaultValue(item, {["dropin_color_input"] = true}, "FFFF99")
+		MenuHelper:ResetItemsToDefaultValue(item, {["join_text_input"] = true}, managers.localization:text("menu_waiting_is_joining"))
+		MenuHelper:ResetItemsToDefaultValue(item, {["join_color_input"] = true}, "99FFFF")
+		MenuHelper:ResetItemsToDefaultValue(item, {["ready_text_input"] = true}, managers.localization:text("menu_waiting_is_ready"))
+		MenuHelper:ResetItemsToDefaultValue(item, {["ready_color_input"] = true}, "66FF66")
+		MenuHelper:ResetItemsToDefaultValue(item, {["unready_text_input"] = true}, managers.localization:text("menu_waiting_is_not_ready"))
+		MenuHelper:ResetItemsToDefaultValue(item, {["unready_color_input"] = true}, "FF3333")
 	end
 
 	IGWSC:Load()	
-	MenuHelper:LoadFromJsonFile( IGWSC._path .. "menu/options.txt", IGWSC, IGWSC.settings )
-
+	MenuHelper:LoadFromJsonFile(IGWSC._path .. "menu/options.txt", IGWSC, IGWSC.settings)
 end )
-
-IGWSC:Load()

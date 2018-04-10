@@ -1,5 +1,3 @@
-IGWSC:Load()
-
 local join_old = HUDMissionBriefing.set_slot_joining
 local ready_old = HUDMissionBriefing.set_slot_ready
 local unready_old = HUDMissionBriefing.set_slot_not_ready
