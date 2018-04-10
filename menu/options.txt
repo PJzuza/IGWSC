@@ -3,6 +3,7 @@
 	"parent_menu_id": "blt_options",
 	"title": "igwsc_menu_title",
 	"description": "igwsc_menu_desc",
+	"back_callback" : "igwsc_save",
 	"items": [
 		{
 			"type" : "button",
