@@ -1,8 +1,8 @@
 {
 	"name": "InGameWaitingStatusColor",
 	"description": "Customize the loadout screen's status texts and colors\n\nLocalization\n- English and Thai language by NewPJzuza.\n- Chinese language by FR0Z3.\n- Russian language by zadirak.\n- German language by Butterbrezel.\n- Spanish language by JerryTheHedgehog.\n\n Thank you everyone for help us improve this mod\nNewPJzuza",
-	"author": "NewPJzuza & Takku & special thank you to dribbleondo",
-	"contact": "http://steamcommunity.com/id/NewPJzuza/ & http://steamcommunity.com/profiles/76561197960497623/",
+	"author": "NewPJzuza, Takku & Dom; special thank you to dribbleondo",
+	"contact": "http://steamcommunity.com/id/NewPJzuza/ ; http://steamcommunity.com/profiles/76561197960497623/ & https://steamcommunity.com/profiles/76561198078556212/",
 	"version": "2.4",
 	"blt_version": 2,
 	"image": "IGWSC.png",
