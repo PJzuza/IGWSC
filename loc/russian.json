@@ -2,6 +2,13 @@
 	"igwsc_menu_title": "Цвет состояния ожидание в игре",
 	"igwsc_menu_desc": "Настройте цвета текста статуса и статусные тексты на экране загрузки",
 	
+	"igwsc_r" : "Красный",
+	"igwsc_r_desc" : "Значение",
+	"igwsc_g" : "Зеленый",
+	"igwsc_g_desc" : "Значение",
+	"igwsc_b" : "Синий",
+	"igwsc_b_desc" : "Значение",
+	
 	"igwsc_options_reset_title": "Сброс",
 	"igwsc_options_reset_desc": "Сбросить стандартные цвета и тексты по умолчанию (Blue-JOINING, Yellow-LOADING, Green-READY и Red-NOT READY)",
 	
