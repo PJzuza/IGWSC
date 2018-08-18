@@ -1,6 +1,6 @@
 {
 	"igwsc_menu_title": "InGame Waiting Status Color",
-	"igwsc_menu_desc": "Personnaliser les couleurs et les textes d'état du texte d'état dans l'écran de chargement",
+	"igwsc_menu_desc": "Personnaliser les couleurs et les textes d'état dans l'écran de chargement",
 
 	"igwsc_r" : "Rouge",
 	"igwsc_r_desc" : "Définir la valeur rouge",
