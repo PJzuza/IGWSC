@@ -1,0 +1,26 @@
+{
+	"igwsc_menu_title": "InGame Waiting Status Color",
+	"igwsc_menu_desc": "Personnaliser les couleurs et les textes d'état du texte d'état dans l'écran de chargement",
+
+	"igwsc_r" : "Rouge",
+	"igwsc_r_desc" : "Définir la valeur rouge",
+	"igwsc_g" : "Vert",
+	"igwsc_g_desc" : "Définir la valeur verte",
+	"igwsc_b" : "Bleu",
+	"igwsc_b_desc" : "Définir la valeur bleu", 
+	
+	"igwsc_options_reset_title": "Réinitialiser",
+	"igwsc_options_reset_desc": "Réinitialiser les couleurs et textes par défaut (Bleu-EN COURS, Jaune-CHARGEMENT, Vert-PRÊT et Rouge-PAS PRÊT)",
+	
+	"dropin_text_title": "Définir le chargement du texte",
+	"dropin_text_desc": "Saisissez le texte que vous souhaitez définir pour le statut CHARGEMENT",
+	
+	"join_text_title": "Définir le texte de en cours",
+	"join_text_desc": "Saisissez le texte que vous souhaitez définir pour le statut EN COURS",
+	
+	"ready_text_title": "Définir le texte prêt",
+	"ready_text_desc": "Saisissez le texte que vous souhaitez définir pour le statut PRÊT",
+	
+	"unready_text_title": "Définir le texte pas prêt",
+	"unready_text_desc": "Saisissez le texte que vous souhaitez définir pour le statut PAS PRÊT"
+}
