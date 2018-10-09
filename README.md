@@ -30,7 +30,7 @@ B. Or you can change it directly by going to PAYDAY 2\mods\saves click IGWSC.txt
 
 ## In-Game Waiting Status Color - New User Interface!!!
 
-![In-Game Waiting Status Color new UI](https://i.imgur.com/Hmu486y.jpg)
+![In-Game Waiting Status Color new UI](https://i.imgur.com/Hmu486yl.jpg)
 
 ## Special thank you
 1. [Takku](http://steamcommunity.com/profiles/76561197960497623/) my friend who helped me developed this mod to be in the better state.
