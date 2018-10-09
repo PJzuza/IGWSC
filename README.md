@@ -4,7 +4,7 @@ In-Game Waiting Status Color for PayDay 2 game :)
 ![In-Game Waiting Status Color](https://i.imgur.com/aF5EK6b.png)  
 
 ## What is the In-Game Waiting Status Color?  
-This mod is simply changing the status color when a player that's in the Preplanning phase/Loading. For example, you can change READY status, NOT READY status, Joining status and Loading status from the white color to ANY COLOR you wanted.  
+This mod is simply changes the status's colour & texts when a player that's in the Preplanning phase/Loading. For example, you can change READY status, NOT READY status, Joining status and Loading status from the white color to ANY COLOR you wanted.  
 
 ![In-Game Waiting Status Color - Showcase](https://thumbs.gfycat.com/GrandioseLegitimateHapuka-size_restricted.gif)
 
@@ -28,13 +28,17 @@ B. Or you can change it directly by going to PAYDAY 2\mods\saves click IGWSC.txt
 
 ![In-Game Waiting Status Color - Plan B](https://i.imgur.com/14WaPcL.png)  
 
+## In-Game Waiting Status Color - New User Interface!!!
+
+![In-Game Waiting Status Color new UI](https://i.imgur.com/Hmu486y.jpg)
+
 ## Special thank you
 1. [Takku](http://steamcommunity.com/profiles/76561197960497623/) my friend who helped me developed this mod to be in the better state.
 2. [Shockwave](http://steamcommunity.com/profiles/76561198078556212/) my friend who keeps improving this mod to be in the better state and be more user friendly in terms of the UI aka User Interface.
 3. [Dribbleondo](http://steamcommunity.com/profiles/76561198093336706) who helped us by fixing some typo and suggesting great ideas to improve this mod.
 4. [FR0Z3](http://steamcommunity.com/profiles/76561198058215284/) for the Chinese translation. 
 5. [zadirak'a zeis?](http://steamcommunity.com/profiles/76561198260704808/) for the Russian translation.
-6. [JerryTheHedgehog](http://steamcommunity.com/profiles/76561198277139668/) for the Spanish translation.
+6. [JerryTheHedgehog](http://steamcommunity.com/profiles/76561198277139668/) & [Hoxi](https://steamcommunity.com/id/hoximacarron) for the Spanish translation.
 7. One of my German friend for the German translation.
 8. [DIDIx13](https://steamcommunity.com/profiles/76561198215282517/) for the French translation.
 
