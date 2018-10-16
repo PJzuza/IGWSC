@@ -8,7 +8,7 @@
 	"image": "IGWSC.png",
 	"color": "239 170 66",
 	"updates": [{
-		"identifier": "InGameWaitingStatusColor"
+		"identifier": "InGameWaitingStatusColor",
 		"host": {
 			"meta" : "https://raw.githubusercontent.com/PJzuza/IGWSC/blob/master/updates/meta.json",
 			"download" :"https://raw.githubusercontent.com/PJzuza/IGWSC/blob/master/updates/IGWSC.zip",
