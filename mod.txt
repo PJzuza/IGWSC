@@ -8,12 +8,7 @@
 	"image": "IGWSC.png",
 	"color": "239 170 66",
 	"updates": [{
-		"identifier": "19670",
-		"host": {
-			"meta" : "https://raw.githubusercontent.com/PJzuza/IGWSC/master/updates/meta.json",
-			"download" :"https://raw.githubusercontent.com/PJzuza/IGWSC/master/updates/IGWSC.zip",
-			"patchnotes" : "https://modworkshop.net/mydownloads.php?action=view_down&did=19670#changelog"
-			}
+		"identifier": 19670
 	}],
 	"hooks": [{
 			"hook_id": "lib/managers/menumanager",
