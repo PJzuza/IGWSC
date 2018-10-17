@@ -1,14 +1,19 @@
 {
 	"name": "InGameWaitingStatusColor",
-	"description": "Customize the loadout screen's status texts and colors\n\nLocalization\n- English and Thai language by NewPJzuza.\n- Chinese language by FR0Z3.\n- Russian language by zadirak.\n- German language by Butterbrezel.\n- Spanish language by JerryTheHedgehog.\n\n Thank you everyone for help us improve this mod\nNewPJzuza",
+	"description": "Customize the loadout screen's status texts and colors\n\nLocalization\n- English and Thai language by NewPJzuza.\n- Chinese language by FR0Z3.\n- Russian language by zadirak.\n- German language by Butterbrezel.\n- Spanish language by JerryTheHedgehog & Hoxi.\n- French language by DIDIx13.\n\n Thank you everyone for helping us improve this mod\nNewPJzuza",
 	"author": "NewPJzuza, Takku & Dom; special thank you to dribbleondo",
 	"contact": "http://steamcommunity.com/id/NewPJzuza/ ; http://steamcommunity.com/profiles/76561197960497623/ & https://steamcommunity.com/profiles/76561198078556212/",
-	"version": "2.4",
+	"version": "2.6",
 	"blt_version": 2,
 	"image": "IGWSC.png",
 	"color": "239 170 66",
 	"updates": [{
-		"identifier": "IGWSC"
+		"identifier": "InGameWaitingStatusColor",
+		"host": {
+			"meta" : "https://raw.githubusercontent.com/PJzuza/IGWSC/blob/master/updates/meta.json",
+			"download" :"https://raw.githubusercontent.com/PJzuza/IGWSC/blob/master/updates/IGWSC.zip",
+			"patchnotes" : "https://modworkshop.net/mydownloads.php?action=view_down&did=19670#changelog"
+			}
 	}],
 	"hooks": [{
 			"hook_id": "lib/managers/menumanager",
@@ -17,6 +22,10 @@
 		{
 			"hook_id": "lib/managers/hud/hudmissionbriefing",
 			"script_path": "lua/hudmissionbriefing.lua"
+		},
+		{
+			"hook_id": "lib/managers/localizationmanager",
+			"script_path" : "lua/updates.lua"
 		}
 	]
 }

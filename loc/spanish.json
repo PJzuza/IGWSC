@@ -1,7 +1,14 @@
 {
-	"igwsc_menu_title": "InGame Waiting Status Color",
+	"igwsc_menu_title": "Color del estado de espera de la partida",
 	"igwsc_menu_desc": "Personaliza el texto y color de los estados de espera de la Sala de preparación.",
-	
+
+	"igwsc_r" : "Rojo",
+	"igwsc_r_desc" : "Establece el valor rojo",
+	"igwsc_g" : "Verde",
+	"igwsc_g_desc" : "Establece el valor verde",
+	"igwsc_b" : "Azul",
+	"igwsc_b_desc" : "Establece el valor azul", 
+
 	"igwsc_options_reset_title": "Restablecer",
 	"igwsc_options_reset_desc": "Restablecer los colores y textos a la configuración predeterminada (Azul-CONECTANDO, Amarillo-CARGANDO, Verde-PREPARADO y Rojo-NO PREPARADO).",
 	
