@@ -1,10 +1,10 @@
-if not _G.IGWSC then
-	_G.IGWSC = _G.IGWSC or {}
-	IGWSC._path = ModPath
-	IGWSC.settings_path = SavePath .. "IGWSC.txt"
-end
+_G.IGWSC = _G.IGWSC or
+{
+	_path = ModPath,
+	settings_path = SavePath .. "IGWSC.txt"
+}
 
-function IGWSC:Reset()
+function IGWSC:LoadDefaultValues()
 	self.settings = {
 		dropin_text_value = string.upper(managers.localization:text("debug_loading_level")),
 		join_text_value = managers.localization:text("menu_waiting_is_joining"),
@@ -53,35 +53,26 @@ function IGWSC:Save()
 end
 
 function IGWSC:Load()
-	local GetTableName = function(table_name)
-		for k, _ in pairs(self.settings.color) do
-			if k == table_name then
-          		return k
-    		end
-		end
-  		return nil
-	end
-
-	self:Reset()
+	self:LoadDefaultValues()
 	local file = io.open(self.settings_path, "r")
 	if file then
-		for k, v in pairs(json.decode(file:read('*all')) or {}) do
-			if type(v) == "table" then
-				if k == "color" then
-					for i, j in pairs(v) do
-						table_name = GetTableName(i)
-						if table_name then
-							self.settings.color[table_name].r = j.r
-							self.settings.color[table_name].g = j.g
-							self.settings.color[table_name].b = j.b
-						end
-					end
-				end
-			else
-				self.settings[k] = v
+		self:LoadValues(self.settings, json.decode(file:read('*all')) or {})
+		file:close()
+	end
+end
+
+function IGWSC:LoadValues(igwsc_table, file_table)
+	for k, v in pairs(file_table) do -- Loads subtables in table and the calls the same method to load subtables or values in that subtable
+		if type(file_table[k]) == "table" then
+			self:LoadValues(igwsc_table[k], v)
+		end
+	end
+	for k, v in pairs(file_table) do -- Loads values to the table
+		if type(file_table[k]) ~= "table" then
+			if igwsc_table[k] ~= nil then
+				igwsc_table[k] = v
 			end
 		end
-		file:close()
 	end
 end
 
@@ -249,7 +240,7 @@ Hooks:Add( "MenuManagerInitialize", "MenuManagerInitialize_IGWSC", function( men
 	end
 
 	IGWSC:Load()	
-	MenuHelper:LoadFromJsonFile(IGWSC._path .. "menu/options.txt", IGWSC, IGWSC.settings)
+	MenuHelper:LoadFromJsonFile(IGWSC._path .. "menu/options.json", IGWSC, IGWSC.settings)
 end )
 
 function IGWSC:CreateBitmap(color, x, y)
@@ -269,7 +260,7 @@ function IGWSC:CreateBitmap(color, x, y)
 end
 
 function IGWSC:CreateBitmaps()
-	if alive(self._panel) and not self._assault_box_bmp then
+	if alive(self._panel) and not self._dropin_color_bmp then
 		self._dropin_color_bmp = self:CreateBitmap(self:GetColor("dropin"), 0.02, 0.12)
 		self._join_color_bmp = self:CreateBitmap(self:GetColor("join"), 0.02, 0.315)
 		self._ready_color_bmp = self:CreateBitmap(self:GetColor("ready"), 0.02, 0.51)
