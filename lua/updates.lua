@@ -10,8 +10,7 @@ if superblt == false then
 		UpdateThisMod:Add({
 			mod_id = 'InGameWaitingStatusColor',
 			data = {
-				dl_url = 'https://raw.githubusercontent.com/PJzuza/IGWSC/master/updates/IGWSC.zip',
-				info_url = 'https://raw.githubusercontent.com/PJzuza/IGWSC/master/mod.txt'
+				modworkshop_id = 19670
 			}
 		})
 	end
