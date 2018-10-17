@@ -10,8 +10,8 @@
 	"updates": [{
 		"identifier": "InGameWaitingStatusColor",
 		"host": {
-			"meta" : "https://raw.githubusercontent.com/PJzuza/IGWSC/blob/master/updates/meta.json",
-			"download" :"https://raw.githubusercontent.com/PJzuza/IGWSC/blob/master/updates/IGWSC.zip",
+			"meta" : "https://raw.githubusercontent.com/PJzuza/IGWSC/master/updates/meta.json",
+			"download" :"https://raw.githubusercontent.com/PJzuza/IGWSC/master/updates/IGWSC.zip",
 			"patchnotes" : "https://modworkshop.net/mydownloads.php?action=view_down&did=19670#changelog"
 			}
 	}],
