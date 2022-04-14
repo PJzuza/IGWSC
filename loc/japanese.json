@@ -1,0 +1,26 @@
+{
+	"igwsc_menu_title": "InGame Waiting Status Color",
+	"igwsc_menu_desc": "ロードアウト画面でのステータステキストの色とテキストのカスタマイズ",
+
+	"igwsc_r" : "赤",
+	"igwsc_r_desc" : "赤の値を設定",
+	"igwsc_g" : "緑",
+	"igwsc_g_desc" : "緑の値を設定",
+	"igwsc_b" : "青",
+	"igwsc_b_desc" : "青の値を設定", 
+	
+	"igwsc_options_reset_title": "リセット",
+	"igwsc_options_reset_desc": "色とテキストをデフォルトにリセット（青 - 参加中, 黄 - ロード中, 緑 - 準備完了, 赤 - 準備未完了）",
+	
+	"dropin_text_title": "ロード時のテキスト",
+	"dropin_text_desc": "「ロード中」ステータスのテキストを設定",
+	
+	"join_text_title": "参加時のテキスト",
+	"join_text_desc": "「参加中」ステータスのテキストを設定",
+	
+	"ready_text_title": "準備完了時のテキスト",
+	"ready_text_desc": "「準備完了」ステータスのテキストを設定",
+	
+	"unready_text_title": "準備未完了時のテキスト",
+	"unready_text_desc": "「準備未完了」ステータスのテキストを設定"
+}
