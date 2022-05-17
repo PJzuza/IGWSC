@@ -33,15 +33,16 @@ B. Or you can change it directly by going to PAYDAY 2\mods\saves click IGWSC.txt
 ![In-Game Waiting Status Color new UI](https://i.imgur.com/Hmu486yl.jpg)
 
 ## Special thank you
-1. [Takku](http://steamcommunity.com/profiles/76561197960497623/) my friend who helped me developed this mod to be in the better state.
-2. [Dom](http://steamcommunity.com/profiles/76561198078556212/) my friend who keeps improving this mod to be in the better state and be more user friendly in terms of the UI aka User Interface.
-3. [Dribbleondo](http://steamcommunity.com/profiles/76561198093336706) who helped us by fixing some typo and suggesting great ideas to improve this mod.
-4. [FR0Z3](http://steamcommunity.com/profiles/76561198058215284/) for the Chinese translation. 
-5. [zadirak'a zeis?](http://steamcommunity.com/profiles/76561198260704808/) for the Russian translation.
-6. [JerryTheHedgehog](http://steamcommunity.com/profiles/76561198277139668/) & [Hoxi](https://steamcommunity.com/id/hoximacarron) for the Spanish translation.
+1.  [Takku](http://steamcommunity.com/profiles/76561197960497623/) my friend who helped me developed this mod to be in the better state.
+2.  [Dom](http://steamcommunity.com/profiles/76561198078556212/) my friend who keeps improving this mod to be in the better state and be more user friendly in terms of the UI aka User Interface.
+3.  [Dribbleondo](http://steamcommunity.com/profiles/76561198093336706) who helped us by fixing some typo and suggesting great ideas to improve this mod.
+4.  [FR0Z3](http://steamcommunity.com/profiles/76561198058215284/) for the Chinese translation. 
+5.  [zadirak'a zeis?](http://steamcommunity.com/profiles/76561198260704808/) for the Russian translation.
+6.  [JerryTheHedgehog](http://steamcommunity.com/profiles/76561198277139668/) & [Hoxi](https://steamcommunity.com/id/hoximacarron) for the Spanish translation.
 7. One of my German friend for the German translation.
-8. [DIDIx13](https://steamcommunity.com/profiles/76561198215282517/) for the French translation.
-9. [ShiNRaX2](http://steamcommunity.com/profiles/76561198028016758/) for his help with the auto-updater
+8.  [DIDIx13](https://steamcommunity.com/profiles/76561198215282517/) for the French translation.
+9.  [ShiNRaX2](http://steamcommunity.com/profiles/76561198028016758/) for his help with the auto-updater
+10. [Assault1892](https://github.com/Assault1892) for the Japanese translation
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=isAUQXQCeFY
 " target="_blank"><img src="http://img.youtube.com/vi/isAUQXQCeFY/0.jpg" 
