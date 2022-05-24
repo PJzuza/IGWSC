@@ -1,0 +1,26 @@
+{
+	"igwsc_menu_title": "InGame Waiting Status Color",
+	"igwsc_menu_desc": "Personalize as cores dos textos de status na tela de equipamentos",
+
+	"igwsc_r" : "Vermelho",
+	"igwsc_r_desc" : "Define o valor Vermelho",
+	"igwsc_g" : "Verde",
+	"igwsc_g_desc" : "Define o valor Verde",
+	"igwsc_b" : "Azul",
+	"igwsc_b_desc" : "Define o valor Azul", 
+	
+	"igwsc_options_reset_title": "Redefinir",
+	"igwsc_options_reset_desc": "Redefine para as cores do estado padrão (Azul-ENTRANDO, Amarelo-CARREGANDO, Verde-PRONTO e Vermelho-NÃO ESTÁ PRONTO)",
+	
+	"dropin_text_title": "Define o texto do 'Carregando'",
+	"dropin_text_desc": "Digite qualquer texto para o estado de 'CARREGANDO'",
+	
+	"join_text_title": "Define o texto do 'Entrando'",
+	"join_text_desc": "Digite qualquer texto para o estado de 'ENTRANDO'",
+	
+	"ready_text_title": "Define o texto do 'Pronto'",
+	"ready_text_desc": "Digite qualquer texto para o estado de 'PRONTO'",
+	
+	"unready_text_title": "Define o texto do 'Não está pronto'",
+	"unready_text_desc": "Digite qualquer texto para o estado de 'NÃO ESTÁ PRONTO'"
+}
