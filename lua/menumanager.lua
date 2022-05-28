@@ -117,7 +117,6 @@ Hooks:Add("LocalizationManagerPostInit", "LocalizationManagerPostInit_IGWSC", fu
 			elseif mod:GetName() == "PAYDAY 2 THAI LANGUAGE Mod" and mod:IsEnabled() then
 				custom_language = "thai"
 				break
-			end	
 			elseif mod:GetName() == "PAYDAY 2 BRAZILIAN PORTUGUESE" and mod:IsEnabled() then
 				custom_language = "portuguese"
 				break
