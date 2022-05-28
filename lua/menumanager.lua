@@ -117,6 +117,10 @@ Hooks:Add("LocalizationManagerPostInit", "LocalizationManagerPostInit_IGWSC", fu
 			elseif mod:GetName() == "PAYDAY 2 THAI LANGUAGE Mod" and mod:IsEnabled() then
 				custom_language = "thai"
 				break
+			end	
+			elseif mod:GetName() == "PAYDAY 2 BRAZILIAN PORTUGUESE" and mod:IsEnabled() then
+				custom_language = "portuguese"
+				break
 			end			
 		end
 		if custom_language then
@@ -130,8 +134,8 @@ Hooks:Add("LocalizationManagerPostInit", "LocalizationManagerPostInit_IGWSC", fu
 				end
 			end
 		end
+		loc:load_localization_file(IGWSC._path .. "loc/english.json", false)
 	end
-	loc:load_localization_file(IGWSC._path .. "loc/english.json", false)
 end)
 
 Hooks:Add( "MenuManagerInitialize", "MenuManagerInitialize_IGWSC", function( menu_manager )

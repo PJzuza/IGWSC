@@ -43,6 +43,7 @@ B. Or you can change it directly by going to PAYDAY 2\mods\saves click IGWSC.txt
 8.  [DIDIx13](https://steamcommunity.com/profiles/76561198215282517/) for the French translation.
 9.  [ShiNRaX2](http://steamcommunity.com/profiles/76561198028016758/) for his help with the auto-updater
 10. [Assault1892](https://github.com/Assault1892) for the Japanese translation
+11. [gabsF](https://github.com/gabsF) for the Portuguese translation
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=isAUQXQCeFY
 " target="_blank"><img src="http://img.youtube.com/vi/isAUQXQCeFY/0.jpg" 
